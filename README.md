@@ -13,6 +13,7 @@
 * Using `towncrier` to automatically keep changelog up-to-date
 
 Please come and ask questions related to above topics!
+As long as our time allows, I could help you to resolve problems in the packaging and CI setups of your projects.
 
 ## Materials
 
