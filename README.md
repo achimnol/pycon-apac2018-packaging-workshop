@@ -14,9 +14,9 @@ Please come and ask questions related to above topics!
 
 ## Materials
 
-* https://packaging.python.org/tutorials/distributing-packages/
-* https://github.com/pypa/sampleproject
-* https://travis-ci.com/
+* https://packaging.python.org/tutorials/distributing-packages/ - Put this under your pillow
+* https://github.com/pypa/sampleproject - You could start by forking this project!
+* https://travis-ci.com
 * https://readthedocs.org
 * https://pypi.org/project/towncrier/
 
