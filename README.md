@@ -7,6 +7,8 @@
 * Adding test cases using pytest and setting up Travis CI for automated tests
 * Writing a good-looking documentation using Sphinx and readthedocs.io
 * Deploying to PyPI with twine and Travis CI
+  - Ensure you have a canonical, non-overlapping, [CoC](https://www.python.org/psf/codeofconduct/)-compliant package name!
+  - For just testing and learning for this workshop, let's use a common prefix: `"pycon-apac2018-sample-"` so that PyPI users don't get confused.
 * Adding shiny badges to the GitHub README
 * Using `towncrier` to automatically keep changelog up-to-date
 
