@@ -25,7 +25,7 @@ ROOT
  +- README.{md|rst}
 ```
 
-## Good-to-have files
+## Optional but good-to-have files
 
 * `.gitignore` – to exclude specific files/dirs from Git's version tracking ([docs](https://git-scm.com/docs/gitignore))
 * `.editorconfig` – to use consistent editor settings for all your collaborators who clone the repository ([reference](https://editorconfig.org/))
