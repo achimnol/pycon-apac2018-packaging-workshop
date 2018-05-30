@@ -19,6 +19,14 @@ ROOT
  |  +- mymodule.py
  +- setup.py
  +- setup.cfg
+ +- .editorconfig
+ +- .gitignore
  +- requirements.txt
  +- README.{md|rst}
 ```
+
+## Good-to-have files
+
+* `.gitignore` – to exclude specific files/dirs from Git's version tracking ([docs](https://git-scm.com/docs/gitignore))
+* `.editorconfig` – to use consistent editor settings for all your collaborators who clone the repository ([reference](https://editorconfig.org/))
+* `setup.cfg` – A central place to have configurations for setup commands ([docs](https://docs.python.org/3/distutils/configfile.html)) and common CI tools such as pytest and flake8.
