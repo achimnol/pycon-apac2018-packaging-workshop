@@ -4,7 +4,7 @@ Please prepare the following:
 
 1. Bring your own project which needs to be "cleaned up" or "packaged" for public distribution, or
 2. Start an example project to practice with this workshop.
-   To avoid confusion of PyPI users, prefix its name with `"pycon-apac2018-sample-"` if you wish to try all the steps up to PyPI deployment.
+   To avoid confusion of PyPI users, prefix its name with `"pycon-apac2018-sample-"` if you wish to try the real PyPI deployment, though I'd suggest skipping it if you are making a pacakge for the pure practice purpose.
 
 I will assume that you are using GitHub throughout this workshop,
 but if you prefer others such as BitBucket it's fined to use them.
