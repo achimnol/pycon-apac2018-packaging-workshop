@@ -24,4 +24,4 @@ ROOT
 Of course do not forget to add `sphinx` to `setup.py` (maybe as "docs" extras) and/or `requirements.txt` (as `requirements-docs.txt`) so that CI service or ReadTheDocs can auto-install dependencies for building documentation with appropriate configurations.
 
 **NOTE:** This workshop does not cover details of writing Sphinx docs.
-Just write some dummy documentation in `index.rst` for practice!
+Just write some dummy documentation in `index.rst` skip publishing to ReadTheDocs for workshop practice!
