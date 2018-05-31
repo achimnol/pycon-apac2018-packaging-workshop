@@ -41,6 +41,8 @@ setup(
 
 For more details and information about standard arguments, consult [the official example here](https://github.com/pypa/sampleproject).
 
+To test the package, create [a virtual environment](https://docs.python.org/3/tutorial/venv.html) and install it there as an editable package.
+
 
 ## FAQ: requirements vs. setup
 
