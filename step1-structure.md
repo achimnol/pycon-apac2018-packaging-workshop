@@ -36,3 +36,7 @@ ROOT
 
 * [PyScaffold](https://pyscaffold.org/en/latest/)
 * [Cookiecutter](https://github.com/audreyr/cookiecutter)
+
+## Alternatives
+
+* [Blog entry about having separate "src" directories](https://blog.ionelmc.ro/2014/05/25/python-packaging/)
