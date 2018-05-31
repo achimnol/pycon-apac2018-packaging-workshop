@@ -6,6 +6,7 @@ As you may already know [Sphinx](http://www.sphinx-doc.org/) is the standard too
 
 Usually, documentations are kept inside `docs` directory.
 You can initialize its content using `sphinx-quickstart` command after installing Sphinx in your project environment.
+It will ask many questions about the documentation -- just use defaults for now and you can change those later.
 
 ```
 ROOT
@@ -20,6 +21,9 @@ ROOT
  +- setup.cfg
  +- ...
 ```
+
+Once it finishes initialization, try `make html` and open `_build/html/index.html` in a web browser.
+This is the starting point of your project documentation.
 
 Of course do not forget to add `sphinx` to `setup.py` (maybe as "docs" extras) and/or `requirements.txt` (as `requirements-docs.txt`) so that CI service or ReadTheDocs can auto-install dependencies for building documentation with appropriate configurations.
 
