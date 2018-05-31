@@ -16,6 +16,7 @@ setup(
     version='0.1.0',
     description='short one-liner description',
     long_description=Path('README.rst').read_text(),
+    packages=['mypackage'],
 )
 ```
 
