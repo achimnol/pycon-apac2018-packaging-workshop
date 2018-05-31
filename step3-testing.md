@@ -5,7 +5,7 @@ Whether you use the stdlib's `unittest` package or many people's favorite `pytes
 A common tool for open source projects is [Travis CI](https://travis-ci.com).
 Of course you may use your other favorites such as [Circle CI](https://circleci.com/).
 
-First, prepare test cases as normally you do and make their execution by a single command such as `python setup.py test`, `python -m pytest`, or `./run-tests.sh`, etc.
+First, prepare test cases as normally you do (e.g., add a `tests` directory that contains test modules) and make their execution by a single command such as `python setup.py test`, `python -m pytest`, or `./run-tests.sh`, etc.
 
 Put your test-specific requirements (e.g., pytest and its plugins) into `extra_requires` argument in your `setup.py`, for example:
 
