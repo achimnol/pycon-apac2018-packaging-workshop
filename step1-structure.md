@@ -7,7 +7,7 @@ Please prepare the following:
    To avoid confusion of PyPI users, prefix its name with `"pycon-apac2018-sample-"` if you wish to try the real PyPI deployment, though I'd suggest skipping it if you are making a pacakge for the pure practice purpose.
 
 I will assume that you are using GitHub throughout this workshop,
-but if you prefer others such as BitBucket it's fined to use them.
+but if you prefer others such as BitBucket it's fine to use them.
 
 Restructure or create the following structure, by starting with empty files.
 Note that this is the most common style in Python-based open source projects.
