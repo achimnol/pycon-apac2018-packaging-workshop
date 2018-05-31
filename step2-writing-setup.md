@@ -8,7 +8,7 @@ There are many discussions about changing script-based `setup.py` to a more stat
 A simplest form of `setup.py` is calling `setuptools.setup` function.
 
 ```python
-from setuptools import setup
+from setuptools import setup, find_packages
 from pathlib import Path
 
 setup(
@@ -17,6 +17,25 @@ setup(
     description='short one-liner description',
     long_description=Path('README.rst').read_text(),
     packages=['mypackage'],
+)
+```
+
+For the alternative style with "src":
+
+```python
+from setuptools import setup, find_packages
+from pathlib import Path
+
+setup(
+    name='mypackage',
+    version='0.1.0',
+    description='short one-liner description',
+    long_description=Path('README.rst').read_text(),
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+
+    # required only for top-level modules
+    py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
 )
 ```
 
