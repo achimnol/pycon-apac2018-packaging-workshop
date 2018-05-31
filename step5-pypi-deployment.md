@@ -47,3 +47,9 @@ $ twine upload dist/*
 There is no extra steps to "register" a new project -- just a new package name becomes a new project.
 This means that if somebody else has already occupied your package name, you cannot use it unless he/she gives the project ownership or write permission to you in PyPI.
 PyPI also restricts re-uploads with the same version number, so when releasing a new version you need to be cautious to avoid re-releases due to simple typos and etc.
+
+
+## Running a Privately Hosted Package Index
+
+* [The official doc](https://packaging.python.org/guides/hosting-your-own-index/)
+* [devpi](http://doc.devpi.net/latest/)
