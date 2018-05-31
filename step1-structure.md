@@ -30,3 +30,9 @@ ROOT
 * `.gitignore` – to exclude specific files/dirs from Git's version tracking ([docs](https://git-scm.com/docs/gitignore))
 * `.editorconfig` – to use consistent editor settings for all your collaborators who clone the repository ([reference](https://editorconfig.org/))
 * `setup.cfg` – A central place to have configurations for setup commands ([docs](https://docs.python.org/3/distutils/configfile.html)) and common CI tools such as pytest and flake8.
+
+
+## Good-to-know Helper Tools
+
+* [PyScaffold](https://pyscaffold.org/en/latest/)
+* [Cookiecutter](https://github.com/audreyr/cookiecutter)
